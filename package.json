@@ -1,0 +1,66 @@
+{
+	"name": "masm",
+	"displayName": "MASM",
+	"description": "Microsoft Macro Assembler language support for VS Code",
+	"version": "0.0.1",
+	"publisher": "bltg-team",
+	"icon": "images/icon.png",
+	"author": {
+		"name": "blindtiger"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/9176324/bltg-team.masm.git"
+	},
+	"engines": {
+		"vscode": "^1.21.0"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "masm",
+				"aliases": [
+					"masm"
+				],
+				"extensions": [
+					".inc",
+					".asm",
+					".s"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "masm",
+				"scopeName": "source.inc, source.asm, source.s",
+				"path": "./syntaxes/masm.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "masm",
+				"scopeName": "source.inc, source.asm, source.s",
+				"path": "./snippets/flow.json"
+			},
+			{
+				"language": "masm",
+				"scopeName": "source.inc, source.asm, source.s",
+				"path": "./snippets/macro.json"
+			},
+			{
+				"language": "masm",
+				"scopeName": "source.inc, source.asm, source.s",
+				"path": "./snippets/segment.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "37eb9ce1-601f-436b-8ed2-0bf193f3aab4",
+		"publisherDisplayName": "blindtiger",
+		"publisherId": "aa163694-2d78-4382-9ffe-8b7f82246641"
+	}
+}
