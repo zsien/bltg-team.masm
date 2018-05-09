@@ -2,7 +2,7 @@
 	"name": "masm",
 	"displayName": "MASM",
 	"description": "Microsoft Macro Assembler language support for VS Code",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"publisher": "bltg-team",
 	"icon": "images/icon.png",
 	"author": {
@@ -13,7 +13,7 @@
 		"url": "https://github.com/9176324/bltg-team.masm.git"
 	},
 	"engines": {
-		"vscode": "^1.21.0"
+		"vscode": "^1.23.0"
 	},
 	"categories": [
 		"Languages"
@@ -23,7 +23,8 @@
 			{
 				"id": "masm",
 				"aliases": [
-					"masm"
+					"masm",
+					"asm"
 				],
 				"extensions": [
 					".inc",
@@ -57,10 +58,5 @@
 				"path": "./snippets/segment.json"
 			}
 		]
-	},
-	"__metadata": {
-		"id": "37eb9ce1-601f-436b-8ed2-0bf193f3aab4",
-		"publisherDisplayName": "blindtiger",
-		"publisherId": "aa163694-2d78-4382-9ffe-8b7f82246641"
 	}
 }

@@ -70,7 +70,7 @@
 				},
 				{
 					"name": "keyword.control.masm",
-					"match": "(^|\\s)\\b((?i)(ELSE|ELSEIF|ELSEIF2|IF|IF2|IFB|IFNB|IFDEF|IFNDEF|IFDIF|IFE|IFIDN|ENDIF|ENDM|FOR|FORC|GOTO|REPEAT|WHILE))\\b"
+					"match": "(^|\\s)\\b((?i)(ELSE|ELSEIF|ELSEIF2|IF|IF2|IFB|IFNB|IFDEF|IFNDEF|IFDIF|IFE|IFIDN|ENDIF|ENDM|FOR|FORC|GOTO|REPEAT|WHILE|IRP|REPT))\\b"
 				},
 				{
 					"name": "keyword.control.masm",
