@@ -8,4 +8,3 @@ This extension provides Microsoft Macro Assembler language support for Visual St
 
 ## License 
 MIT
-

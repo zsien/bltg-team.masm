@@ -1,5 +1,8 @@
 # Change Log
 
+##0.0.4 [10/11/2019]
+fixup int&jcc.
+
 ##0.0.3 [05/09/2018]
 add irp rept control keyword.
 

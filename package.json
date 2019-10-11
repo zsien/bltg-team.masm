@@ -2,7 +2,7 @@
 	"name": "masm",
 	"displayName": "MASM",
 	"description": "Microsoft Macro Assembler language support for VS Code",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "bltg-team",
 	"icon": "images/icon.png",
 	"author": {
